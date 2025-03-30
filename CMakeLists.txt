@@ -3,7 +3,6 @@ project(pbr_objects)
 
 find_package(ament_cmake REQUIRED)
 
-ament_package()
 
 #############
 ## Install ##
@@ -15,3 +14,5 @@ install(DIRECTORY
   meshes
   DESTINATION share/${PROJECT_NAME}
 )
+
+ament_package()
